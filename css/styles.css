@@ -2,18 +2,18 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #2E2F42;
     letter-spacing: 0.02em;
+    margin: 0;
 }
 ul {
     list-style: none;
     padding: 0; 
+    margin: 0;
 }
-/* p {
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-} */
+p {
+    margin: 0;
+} 
 h1 {
-    /* margin: 188px 472px 292px 472px; */
+    margin: 0;
     color: #ffffff;
     font-style: normal;
     font-weight: 700;
@@ -22,29 +22,25 @@ h1 {
     width: 496px;
     text-align: center;
     }
-/* .h-strategy,
-.punctuality,
-.diligence,
-.technologies {
-    color: #2E2F42;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-} */
 /* Шапка стр. */
+.header {
+    padding: 24px 0;
+}
 .container {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    /* height: 72px; */
     width: 1158px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
    }
 .header-logo {
     display: flex;
+    align-items: center;
 }
 .logo{
-    margin: 24px 56px 24px 0;
+    /* margin: 24px 56px 24px 0; */
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -58,7 +54,7 @@ h1 {
 }
 .menu {
     display: flex; 
-    padding: 8px 20px;
+    /* padding: 8px 20px; */
 }
 .menu-job {
     font-family: 'Roboto';
@@ -82,7 +78,8 @@ h1 {
 } */
 .address{
     display: flex;
-    padding: 8px 36px;
+    /* justify-content: flex-end; */
+    /* padding: 8px 36px;  */
 }
 .adress-menu {
     margin-right: auto;
@@ -121,14 +118,9 @@ h1 {
     display: flex;
 /* flex-direction: row;
 align-items: flex-start;*/
+margin-top: 48px;
 padding: 16px 32px;
 gap: 10px;
-/*
-position: absolute;
-width: 169px;
-height: 56px;
-left: 636px;
-top: 428px;  */
 }
 .strategy{
     display: flex;
@@ -144,6 +136,7 @@ top: 428px;  */
 } */
 /* Приоритеты */
 .h-strategy{
+    margin: 0;
     color: #2E2F42;
     font-style: normal;
     font-weight: 500;
@@ -151,7 +144,8 @@ top: 428px;  */
     line-height: 1.2;
 }
 .our-strategy{
-    padding: 8px 12px 0 0;
+    margin-top: 8px;
+    /* padding: 8px 12px 0 0; */
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -160,8 +154,20 @@ top: 428px;  */
     font-size: 16px;
     letter-spacing: 0.02em;
 }
+.strategy-h{
+    margin-right: 24px;
+    
+}
 /* наши работы */
+.container-job{
+    margin-bottom: 120px;
+
+} 
+.job{
+    display: flex;
+}
  .our-job {
+    margin-bottom: 70px;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -182,7 +188,7 @@ h2 {
     margin: 0;
 }
 .our-team {
-    padding: 0 0 72px;
+    margin: 0 0 72px;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -191,8 +197,9 @@ h2 {
     height: 120px 639px 72px 639px;
 }
 .team-our{
+    
     background-color: #F4F4FD;
-    padding: 120px 144px;
+    padding: 120px 0;
 } 
 .produkt {
     display: flex;
@@ -214,9 +221,19 @@ top: 1780px; */
 .job-secion{
     margin-right: 24px;
 }
+.container-produkt{
+    display: flex;
+}
+.container-team{
+    padding: 32px 16px;
+}
+.job-portfolio{
+    margin: 32px 0;
+    margin-left: 16px;
+}
 .team,
 .job {
-    margin: 32px 0 4px 16px;
+    /* margin: 32px 0 4px 16px; */
     color: #2E2F42;
     font-style: normal;
     font-weight: 500;
@@ -225,7 +242,7 @@ top: 1780px; */
 }
 .team-produkt,
 .app{
-    margin: 4px 0 32px 16px;
+    /* margin: 4px 0 32px 16px; */
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.02em;
@@ -240,10 +257,10 @@ top: 1780px; */
 }  
 .footer{
     padding-top: 100px;
-    padding-bottom: 16px;
+    /* padding-bottom: 100px; */
 }
 .logo-footer{
-    margin-top: 100px;
+    /* margin-top: 100px; */
     margin-left: 156px;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -257,20 +274,25 @@ top: 1780px; */
     height: 72px;
     width: 264px;
     margin-left: 156px;
-    margin-bottom: 100px;
+     /* margin-bottom: 100px;  */
 }
 /* Кнопки */
-.button {
-    display: flex;
-    
-} 
-.container-button{
+ .button {
     display: flex;
     justify-content: center;
-
-}
-.button-job {
+ } 
+ .container{
+    flex-direction: row;
+justify-content: center;
+align-items: center;
+ }
+.container-button{
+    display: flex;
+    justify-content: flex-center;
     margin: 96px 24px 72px 0;
+} 
+.button-job {
+    /* margin: 96px 24px 72px 0; */
     padding: 12px 24px;
     width: 126px;
     height: 48px;
@@ -285,6 +307,9 @@ top: 1780px; */
     border-radius: 4px;
     background-color: #F4F4FD;
     color: #4D5AE5;
+    /* flex-direction: row;
+justify-content: center;
+align-items: center; */
      /* display: flex;
 flex-direction: row;
 align-items: flex-start;
@@ -295,6 +320,12 @@ width: 169px;
 height: 56px;
 left: 636px;
 top: 428px;  */
+}
+.button-nav{
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 12px 25px;
 }
 .button-job:hover, 
 .button-job:focus {
