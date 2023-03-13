@@ -105,6 +105,22 @@ h1 {
 .hero{
     background-color:  #2E2F42;
     padding: 188px 0 188px;
+/* }
+.hero-s{ */
+    max-width: 1440px;
+    min-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(
+        to right,
+     rgba(46, 47, 66, 0.7),
+     rgba(46, 47, 66, 0.7)
+     ),
+    url("../images/people-office.jpg");
+    /*background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    /* background: rgba(46, 47, 66, 0.7); */
 }
 .hero-section{
     display: flex;
@@ -158,6 +174,29 @@ h1 {
     margin-right: 24px;
     width:calc((100%-3*24px)/3) ;
 }
+.strategy-h::before{
+    display: block;
+    content: "";
+   /* background-image: url(../images/Vector.svg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F4F4FD;
+    height: 112px;
+    outline: 1px solid F4F4FD;
+    border-radius: 4px;
+}
+.strategy-h:nth-child(1):before{
+    background-image: url(../images/strategy.svg);
+}
+.strategy-h:nth-child(2):before{
+    background-image: url(../images/punctuality.svg);
+}
+.strategy-h:nth-child(3):before{
+    background-image: url(../images/diagram\ 1.svg);
+}
+.strategy-h:nth-child(4):before{
+    background-image: url(../images/astronaut\ 1.svg);
+} 
 .strategy-h:last-child{
     margin-right: 0;
 }
@@ -231,10 +270,32 @@ h2 {
     display: flex;
     flex-direction: column;
 }
-.container-produkt{
+/* .social-list{
+    margin-left: 16px;
+    margin-right: 16px;
+} */
+.social-list-item{
     display: flex;
-   
-    justify-content: center;
+    flex-direction: row; 
+} 
+.social-list-icon{
+    display: block;
+    /* flex-direction: row;  */
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    /* background-image: url(../images/symbol.svg#icon-facebook-min);  */
+    outline: 1px solid fff; 
+    background-size: contain;
+    color: #121213;
+    fill: #2E2F42;
+    margin-right: 16px;
+}  
+/* .social-list-icon{
+    fill: black;
+} */
+.social-list{
+    display: flex;
+    flex-direction: row;
 }
 .container-team{
     padding: 32px 16px;
@@ -264,11 +325,72 @@ h2 {
     font-size: 16px;
     line-height: 1.5;
 }
+.icon{
+    display: block;
+    width: 40p;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+/* Наши компаньоны  */
+.gustomers{
+    display: flex;
+    flex-direction: column;
+}
+.gustomers-item{
+    display: flex;
+  
+    margin: 120px;
+    /* content: ""; */
+    /* background: #E5E5E5; */
+    justify-content: center;
+    flex-direction: row;
+}
+.gustomers-list{
+    display: flex;
+    flex-direction: row;
+    /* width: 1128px;
+    height: 88px; */
+}
+.gustomers-list-item{
+    display: flex;
+    box-sizing: border-box; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px; 
+    content: ""; 
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    width: 168px;
+    height: 88px;
+}
+/* .logos{
+    background: url(../images/astronaut\ 1.svg);
+    margin: 16px 32px;
+    background-size: 40px;
+} */
+.gustomers-list-item:last-child{
+    margin-right: 0;
+}
+/* .gustomers-list-item:nth-child(1){
+    background-image: url(../images/symbol.svg#icon-Logo-min-1);
+} */
 /* Подвал стр. */
 .footer{
+    display: flex;
+    flex-direction: row;
     background-color: #2E2F42;
     padding-top: 100px;
 }  
+.alles{
+    display: flex;
+    flex-direction: row; 
+}
+.footer-social-list{
+display: flex;
+flex-direction: row;
+}
 .logo-footer{
     margin-bottom: 16px;
     font-family: 'Raleway', sans-serif;
@@ -283,12 +405,37 @@ h2 {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
+
+}
+.logo-alles{
+    margin-left: 120px;  
+}
+.footer-logo-alles{
+/* display: flex;
+flex-direction: row; */
+width: 208px;
+ height: 80px; 
 }
 .footer-logo { 
     color: #E7E9FC; 
-    height: 72px;
+    /* height: 72px; */
     width: 264px; 
 }
+.footer-social-list-icon{
+    display: block;
+    /* flex-direction: row;  */
+    border-radius: 50%;
+    background-color: #F4F4FD;
+    /* background-image: url(../images/symbol.svg#icon-facebook-min);  */
+    outline: 1px solid fff; 
+    background-size: contain;
+    /* color: #121213;
+    fill: #2E2F42; */
+    margin-right: 16px;
+} 
+/* .footer-social-list-icon:last-child{
+    margin-right: 0;
+} */
 /* Кнопки */
  .container-button {
     display: flex;
