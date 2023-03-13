@@ -270,10 +270,6 @@ h2 {
     display: flex;
     flex-direction: column;
 }
-/* .social-list{
-    margin-left: 16px;
-    margin-right: 16px;
-} */
 .social-list-item{
     display: flex;
     flex-direction: row; 
@@ -290,9 +286,6 @@ h2 {
     fill: #2E2F42;
     margin-right: 16px;
 }  
-/* .social-list-icon{
-    fill: black;
-} */
 .social-list{
     display: flex;
     flex-direction: row;
