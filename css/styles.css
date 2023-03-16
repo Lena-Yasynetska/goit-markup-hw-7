@@ -184,6 +184,7 @@ h1 {
     height: 112px;
     outline: 1px solid F4F4FD;
     border-radius: 4px;
+    margin-bottom: 8px;
 }
 .strategy-h:nth-child(1):before{
     background-image: url(../images/strategy.svg);
@@ -250,6 +251,9 @@ h2 {
     background-color: #F4F4FD;
     padding: 120px 0;
 } 
+.team-produkt{
+    margin-bottom: 8px;
+}
 .produkt {
     display: flex;
     flex-direction: column;
@@ -272,26 +276,32 @@ h2 {
 }
 .social-list-item{
     display: flex;
-    flex-direction: row; 
-} 
-.social-list-icon{
-    display: block;
     /* flex-direction: row;  */
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 24px;
     border-radius: 50%;
     background-color: #4D5AE5;
-    /* background-image: url(../images/symbol.svg#icon-facebook-min);  */
+} 
+.social-list-item:last-child{
+    margin-right: 0;
+}
+.social-list-icon{
+    display: block;
     outline: 1px solid fff; 
     background-size: contain;
     color: #121213;
     fill: #2E2F42;
-    margin-right: 16px;
 }  
 .social-list{
     display: flex;
     flex-direction: row;
+    margin: 0 16px 32px 16px; 
 }
 .container-team{
-    padding: 32px 16px;
+    padding: 32px 16px 8px 16px;
 }
 .job-portfolio{
     padding: 32px 0;
@@ -332,10 +342,7 @@ h2 {
 }
 .gustomers-item{
     display: flex;
-  
-    margin: 120px;
-    /* content: ""; */
-    /* background: #E5E5E5; */
+    margin: 120px 0;
     justify-content: center;
     flex-direction: row;
 }
@@ -358,17 +365,25 @@ h2 {
     width: 168px;
     height: 88px;
 }
-/* .logos{
-    background: url(../images/astronaut\ 1.svg);
-    margin: 16px 32px;
-    background-size: 40px;
-} */
+.logo-l{
+   
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #2E2F42;
+}
 .gustomers-list-item:last-child{
     margin-right: 0;
 }
-/* .gustomers-list-item:nth-child(1){
-    background-image: url(../images/symbol.svg#icon-Logo-min-1);
-} */
+.log{
+    fill: #8E8F99;
+}
+.log:hover{
+    fill:#404BBF
+}
 /* Подвал стр. */
 .footer{
     display: flex;
@@ -398,37 +413,42 @@ flex-direction: row;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-
 }
 .logo-alles{
     margin-left: 120px;  
 }
 .footer-logo-alles{
-/* display: flex;
-flex-direction: row; */
-width: 208px;
- height: 80px; 
+    width: 208px;
+    height: 80px; 
 }
 .footer-logo { 
     color: #E7E9FC; 
-    /* height: 72px; */
     width: 264px; 
+    margin-bottom: 16px;
 }
 .footer-social-list-icon{
     display: block;
-    /* flex-direction: row;  */
     border-radius: 50%;
-    background-color: #F4F4FD;
-    /* background-image: url(../images/symbol.svg#icon-facebook-min);  */
-    outline: 1px solid fff; 
     background-size: contain;
-    /* color: #121213;
-    fill: #2E2F42; */
-    margin-right: 16px;
+    fill: #F4F4FD; 
+    
+   
 } 
-/* .footer-social-list-icon:last-child{
-    margin-right: 0;
-} */
+.footer-social-list-item{
+    display: flex;
+    flex-direction: row; 
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+    border-radius: 50%;
+    background-color: #8E8F99;
+    justify-content: center;
+    align-items: center;
+}
+.footer-social-list-item:hover{
+    fill: #404BBF;
+}
+
 /* Кнопки */
  .container-button {
     display: flex;
