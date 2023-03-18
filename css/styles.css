@@ -140,6 +140,7 @@ h1 {
     display: flex;
     margin-top: 48px;
     padding: 16px 32px;
+    border: none;
 }
 .strategy{
     display: flex;
@@ -223,6 +224,10 @@ h1 {
     box-sizing: border-box;
     background: #FFFFFF;  
 }
+.job-our:hover,
+.job-our:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 img{
     max-width: 100%;
     height: auto;
@@ -283,25 +288,36 @@ h2 {
     height: 40px;
     margin-right: 24px;
     border-radius: 50%;
-    background-color: #4D5AE5;
+    background-color: #AFB1B8; 
+    /* background-color: #4D5AE5; */
 } 
 .social-list-item:last-child{
     margin-right: 0;
+}
+.social-list-item:hover,
+.social-list-item:focus{
+    background-color: #4D5AE5;
 }
 .social-list-icon{
     display: block;
     outline: 1px solid fff; 
     background-size: contain;
-    color: #121213;
+    /* color: #121213;  */
     fill: #2E2F42;
-}  
+    background-color: #AFB1B8; 
+} 
+.social-list-icon:hover,
+.social-list-icon:focus{
+    background-color: #4D5AE5;
+} 
 .social-list{
     display: flex;
     flex-direction: row;
-    margin: 0 16px 32px 16px; 
+    /* margin: 0 16px;  */
 }
 .container-team{
-    padding: 32px 16px 8px 16px;
+    padding: 32px 16px 32px 16px;
+    text-align: center;
 }
 .job-portfolio{
     padding: 32px 0;
@@ -317,6 +333,7 @@ h2 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+   
 }
 .team-produkt,
 .app{
@@ -349,8 +366,6 @@ h2 {
 .gustomers-list{
     display: flex;
     flex-direction: row;
-    /* width: 1128px;
-    height: 88px; */
 }
 .gustomers-list-item{
     display: flex;
@@ -365,7 +380,7 @@ h2 {
     width: 168px;
     height: 88px;
 }
-.logo-l{
+/* .logo-l{
    
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -374,9 +389,17 @@ h2 {
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: #2E2F42;
-}
+}  */
 .gustomers-list-item:last-child{
     margin-right: 0;
+}
+/* .logos{
+    background-color: #8E8F99;
+} */
+.gustomers-list-item:hover,
+.gustomers-list-item:focus{
+    border: 1px solid #404BBF;
+    fill: #404BBF;
 }
 .log{
     fill: #8E8F99;
@@ -390,14 +413,15 @@ h2 {
     flex-direction: row;
     background-color: #2E2F42;
     padding-top: 100px;
+    padding-bottom: 100px;
 }  
 .alles{
     display: flex;
     flex-direction: row; 
 }
 .footer-social-list{
-display: flex;
-flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 .logo-footer{
     margin-bottom: 16px;
@@ -411,29 +435,37 @@ flex-direction: row;
 .logo-f{
     display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto; */
+    margin-right: 120px;
+    width: 264px; 
 }
-.logo-alles{
+/* .logo-alles{
     margin-left: 120px;  
-}
+} */
 .footer-logo-alles{
     width: 208px;
     height: 80px; 
 }
 .footer-logo { 
     color: #E7E9FC; 
-    width: 264px; 
-    margin-bottom: 16px;
-}
-.footer-social-list-icon{
-    display: block;
-    border-radius: 50%;
-    background-size: contain;
-    fill: #F4F4FD; 
-    
-   
+    /* width: 264px;  */
+    /* margin-bottom: 16px;*/
 } 
+.footer-social-list-icon{
+    /* display: block; */
+    /* border-radius: 50%; */
+    /* background-size: contain; */
+    /* fill: #F4F4FD;  */
+} 
+.footer-logos{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+color: #FFFFFF;
+margin-bottom: 16px;
+}
 .footer-social-list-item{
     display: flex;
     flex-direction: row; 
@@ -441,14 +473,19 @@ flex-direction: row;
     height: 40px;
     margin-right: 16px;
     border-radius: 50%;
-    background-color: #8E8F99;
+    /* background-color: #8E8F99; */
     justify-content: center;
     align-items: center;
+    background: rgba(255, 255, 255, 0.1);
 }
-.footer-social-list-item:hover{
-    fill: #404BBF;
+.footer-social-list-item:hover,
+.footer-social-list-item:focus{
+    /* fill: #404BBF; */
+    background-color: #31D0AA;
 }
-
+.footer-social-list-item:last-child{
+    margin-right: 0;
+}
 /* Кнопки */
  .container-button {
     display: flex;
