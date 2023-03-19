@@ -484,6 +484,11 @@ margin-bottom: 16px;
 .footer-social-list-item:last-child{
     margin-right: 0;
 }
+.social-list-item-link:hover,
+.social-list-item-link:focus
+{
+fill: #404BBF;
+}
 /* Кнопки */
  .container-button {
     display: flex;
