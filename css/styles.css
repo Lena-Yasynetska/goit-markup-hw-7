@@ -485,6 +485,10 @@ margin-bottom: 16px;
 .footer-social-list-item:last-child{
     margin-right: 0;
 }
+.social-list-item-link{
+    margin: 0;
+    padding: 0;
+}
 .social-list-item-link:hover,
 .social-list-item-link:focus
 {
