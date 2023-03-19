@@ -268,6 +268,7 @@ h2 {
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+    /* cursor: pointer; */
 }
 .produkt:last-child{
     margin-right: 0;
@@ -288,15 +289,16 @@ h2 {
     height: 40px;
     margin-right: 24px;
     border-radius: 50%;
-    background-color: #AFB1B8; 
-    /* background-color: #4D5AE5; */
+    /* background-color: #AFB1B8;  */
+    background-color: #4D5AE5;
+    cursor: pointer;
 } 
 .social-list-item:last-child{
     margin-right: 0;
 }
 .social-list-item:hover,
 .social-list-item:focus{
-    background-color: #4D5AE5;
+    background-color: #404BBF;
 }
 .social-list-icon{
     display: block;
@@ -304,11 +306,11 @@ h2 {
     background-size: contain;
     /* color: #121213;  */
     fill: #2E2F42;
-    background-color: #AFB1B8; 
+    /* background-color: #AFB1B8;  */
 } 
 .social-list-icon:hover,
 .social-list-icon:focus{
-    background-color: #4D5AE5;
+    background-color: #404BBF;
 } 
 .social-list{
     display: flex;
@@ -379,6 +381,7 @@ h2 {
     border-radius: 4px;
     width: 168px;
     height: 88px;
+    cursor: pointer;
 }
 /* .logo-l{
    
@@ -399,12 +402,13 @@ h2 {
 .gustomers-list-item:hover,
 .gustomers-list-item:focus{
     border: 1px solid #404BBF;
-    fill: #404BBF;
+    /* fill: #404BBF; */
 }
 .log{
     fill: #8E8F99;
 }
-.log:hover{
+.log:hover,
+.log:focus{
     fill:#404BBF
 }
 /* Подвал стр. */
@@ -448,14 +452,6 @@ h2 {
 }
 .footer-logo { 
     color: #E7E9FC; 
-    /* width: 264px;  */
-    /* margin-bottom: 16px;*/
-} 
-.footer-social-list-icon{
-    /* display: block; */
-    /* border-radius: 50%; */
-    /* background-size: contain; */
-    /* fill: #F4F4FD;  */
 } 
 .footer-logos{
     font-family: 'Roboto';
@@ -477,10 +473,10 @@ margin-bottom: 16px;
     justify-content: center;
     align-items: center;
     background: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
 }
 .footer-social-list-item:hover,
 .footer-social-list-item:focus{
-    /* fill: #404BBF; */
     background-color: #31D0AA;
 }
 .footer-social-list-item:last-child{
@@ -541,6 +537,7 @@ margin-bottom: 16px;
     column-gap: 24px;
     row-gap: 48px;
     border: 0;
+    cursor: pointer;
 } 
 .container-produkt{
     display: flex;
