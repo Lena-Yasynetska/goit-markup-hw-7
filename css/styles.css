@@ -405,11 +405,11 @@ h2 {
     /* fill: #404BBF; */
 }
 .logos{
-    color: #8E8F99;
+    fill: #8E8F99;
 }
 .logos:hover,
 .logos:focus{
-    color:#404BBF;
+    fill:#404BBF;
 }
 /* Подвал стр. */
 .footer{
