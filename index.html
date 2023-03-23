@@ -11,16 +11,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
     <link rel="stylesheet" href="./css/styles.css"/>
 </head>
-<body>
-    <!--Шапка стр.-->
+<body>    <!--Шапка стр.-->
    <header class="header">
     <div class="container header-container">
       <nav class="header-logo">
         <a class="logo" href="./index.html" style="text-decoration: none;"><span class="web">WEB</span>STUDIO</a>
         <ul class="menu">
             <li class="menu-j"><a class="menu-job" href="./index.html" style="text-decoration: none;">Studio</a></li>
-            <li class="menu-j"><a class="menu-job" href="./portfolio.html" style="text-decoration: none;">Portfolio</a></li>
-            <li class="menu-j"><a class="menu-job" href="" style="text-decoration: none;">Contacts</a></li>
+            <li class="menu-j"><a class="menu-jo" href="./portfolio.html" style="text-decoration: none;">Portfolio</a></li>
+            <li class="menu-j"><a class="menu-jo" href="" style="text-decoration: none;">Contacts</a></li>
         </ul>
       </nav>
         <address> 
@@ -38,7 +37,8 @@
       <div class="hero-section hero-s"> 
         <h1>Effective Solutions
   for Your Business</h1>
-        <button class="service" type="button">Order Service</button>
+        <button class="service" type="button" data-modal-open>Order Service</button>
+        <!-- <div class="backdrop"></div> -->
       </div>
     </section>
     <!-- Приоритеты -->
@@ -346,5 +346,16 @@
       </div>
     </div>
       </footer>
+      <!-- modal -->
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+      <svg class="modal-close" width="8px" height="8px">
+        <use href="./images/symbol-min.svg#icon-close"></use>
+      </svg>
+        </button>
+        </div>
+      </div>
+      <script src="./js/modal.js"></script>
 </body>
 </html>
