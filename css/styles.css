@@ -682,5 +682,5 @@ fill: #404BBF;
 .modal-close-btn:hover .modal-close,
 .modal-close-btn:focus .modal-close{
     background-color: #404BBF;
-    color: #FFFFFF;
+    fill: #FFFFFF;
 }
