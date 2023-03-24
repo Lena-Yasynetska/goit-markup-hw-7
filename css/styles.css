@@ -446,8 +446,8 @@ h2 {
 /* .logos{
     background-color: #8E8F99;
 } */
-.gustomers-list-item:hover,
-.gustomers-list-item:focus{
+.gustomers-list-item:hover .logos,
+.gustomers-list-item:focus .logos{
     border: 1px solid #404BBF;
     fill: #404BBF;
 }
