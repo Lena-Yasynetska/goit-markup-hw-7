@@ -662,8 +662,9 @@ fill: #404BBF;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30px;
-    height: 30px;
+    margin: auto;
+    /* width: 30px;
+    height: 30px; */
     border-radius: 50%; 
     padding: 0;
     /* border: 1px solid #E7E9FC; */
@@ -681,8 +682,8 @@ fill: #404BBF;
     border: 1px solid #E7E9FC;
     transition: border;
 }
-.modal-close-btn:hover .modal-close,
-.modal-close-btn:focus .modal-close{
+.modal-close-btn:hover ,
+.modal-close-btn:focus{
     background-color: #404BBF;
     fill: #FFFFFF;
 }
