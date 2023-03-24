@@ -448,8 +448,13 @@ h2 {
 } */
 .gustomers-list-item:hover .logos,
 .gustomers-list-item:focus .logos{
-    border: 1px solid #404BBF;
+    /* border: 1px solid #404BBF; */
     fill: #404BBF;
+}
+.gustomers-list-item:hover,
+.gustomers-list-item:focus{
+    border: 1px solid #404BBF;
+    /* fill: #404BBF; */
 }
 .logos{
     fill: #8E8F99;
