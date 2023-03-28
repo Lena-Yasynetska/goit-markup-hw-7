@@ -602,23 +602,32 @@ line-height: 2;
     display: flex;
     flex-direction: row;
     /* justify-content: center; */
-    align-items: center;
+    /* align-items: center; */
+    margin-left: 24px;
     padding: 8px 24px;
     width: 165px;
     height: 40px;
 
     gap: 16px;
     border-radius: 4%;
+    background-color: #4D5AE5; 
 }
 .telegramms{
     display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
+width: 77px;
+height: 24px;
 padding: 8px 24px;
 gap: 16px;
     background-color: #4D5AE5;  
     color: #FFFFFF;
+}
+.flug{
+    width: 24px;
+    height: 20px;
+    color: ffffff;
 }
 /* Кнопки */
  .container-button {
@@ -774,7 +783,7 @@ gap: 16px;
     margin-top: 72px;
     margin-left: 24px;
     margin-right: 24px;
-    margin-bottom: 24 px;
+    margin-bottom: 24px;
     /* padding: 72px 24px 24p 24px; */
 }
 .titul span{
@@ -868,19 +877,17 @@ gap: 16px;
     color: #303030; */
 }
 .form-icon{
-    fill: #4D5AE5;
-}
-.form-group{
-    position: relative;
-}
-.form-icon{
-    position: absolute;
     left: 5px;
     margin-right: 7px;
+    fill: #4D5AE5;
 }
-.form{
+/* .form-group{
+    position: relative;
+} */
+
+/* .form{
     margin-bottom: 16px;
-}
+} */
 .form:hover,
 .form:focus{
     border-radius: #4D5AE5;
