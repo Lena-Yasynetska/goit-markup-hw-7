@@ -344,16 +344,116 @@
    </li>
      </ul>
       </div>
+      <div class="footer-email">
+      <p class="footer-logos">Subscribe</p>
+      <div class="logos-footer">
+      <div class="email">
+      <a class="emails" href="#">E-mail</a>
+    <!-- </div> -->
+  </div>
+    <div class="telegramm">
+      <button class="telegramms" type="button">Subscribe</button>
+      <svg widht="24" height="20">
+        <use href="./images/symbol-min.svg#icon-icon-send"></use>
+      </svg>
     </div>
+  </div>
+    </div>
+
       </footer>
       <!-- modal -->
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
+          <!-- <div class="modal-windows"> -->
+            
         <button type="button" class="modal-close-btn" data-modal-close>
       <svg class="modal-close" width="8px" height="8px">
         <use href="./images/symbol-min.svg#icon-close"></use>
       </svg>
         </button>
+        <!-- <form action="#" class="contact-forms">
+          <input type="text" class="contact-form-input" placeholder="Name*" name="user_name" required minlength="2" maxlength="10" pattern="^[a-zA-Zа-яА-Я]+$"/>  -->
+          <div class="modal-windows">
+            
+          <div class="conact-user">
+            <p>Leave your contacts and we will call you back</p>
+          </div>
+            <form action="#" class="contact-forms">
+              <div class="form">
+              <label class="titul">
+             <span>Name</span>
+             <div class="form-group">
+            <input type="text" class="contact-form-input" name="user_name" required minlength="2" maxlength="50" pattern="^[a-zA-Zа-яА-Я]+$"/>
+             <svg class="form-icon" weight="12px" height="12px">
+              <use href="./images/symbol-min.svg#icon-man"></use>
+             </svg>
+            </div>
+             </label>
+            </div>
+            <div class="form">
+             <label class="titul">
+              <span>Phone</span>
+              <div class="form-group">
+            <input type="tel" class="contact-form-input" name="user_fhone" required pattern="[0-9](3)-[0-9](2)-[0-9](2)" title="xxx-xx-xx"/>
+            <svg class="form-icon" weight="12px" height="12px">
+              <use href="./images/symbol-min.svg#icon-tel"></use>
+             </svg>
+            </div>
+          </label>
+              </div>
+              <div class="form">  
+            <label class="titul">
+              
+              <span>Email</span>
+              <div class="form-group">
+            <input type="email" class="contact-form-input" name="user_email" required/>
+            <svg class="form-icon" weight="12px" height="12px">
+              <use href="./images/symbol-min.svg#icon-post"></use>
+             </svg>
+            </div>
+          </label>
+            </div>
+            <div class="form">
+            <label class="titul">
+              <span>Comment</span>
+            
+            <textarea name="#" class="contact-form-message" placeholder="Text input"></textarea>
+           </label> 
+          </div>
+            <!-- радио кнопки и чекбокы -->
+            <!-- <div class="contact-form-fieldset">
+                <p class="contact-form-group-description">Your age</p>
+                <label for="18">18+</label>   
+                <input type="radio" name="user_age" id="18" class="contact-form-checkbox" value="18"/>
+                <label for="35">35+</label>
+                <input type="radio" name="user_age" id="35" class="contact-form-checkbox" value="35"/>
+                <label for="45">45+</label> 
+                <input type="radio" name="user_age" id="45" class="contact-form-checkbox" value="45"/>
+                </div> -->
+                <div class="contact-form-fieldset">
+                    <!-- <p class="contact-form-group-description">Your hobby</p> -->
+                    <label>
+                    <!-- football -->
+                    <div class="check">
+                    <input type="checkbox" name="user" class="contact-form-checkbox" value="I accept the terms and conditions of the Privacy Policy"/>
+                    I accept the terms and conditions of the <a href="#">Privacy Policy</a>
+                  </div>
+                  </label>
+                <!-- <label>
+                    swimming
+                    <input type="checkbox" name="user_hobbys" class="contact-form-checkbox" value="swimming"/>
+                </label>
+                <label>
+                    tennis 
+                    <input type="checkbox" name="user_hobbys" class="contact-form-checkbox" value="tennis"/>
+                </label> -->
+                </div> 
+         <div class="contact-form-btn-wrapper">
+         <button type="submit " class="contact-form-btn">Send</button>
+         <!-- <button type="reset" class="contact-form-btn">clear</button> -->
+         </div>
+         </form>
+      </div>
         </div>
       </div>
       <script src="./js/modal.js"></script>

@@ -113,9 +113,9 @@ h1 {
     transform: translateY(25px);
     background-color: #404BBF;
 }
-*,*::before,*::after{
+/* *,*::before,*::after{
     box-sizing: inherit;
-}
+} */
 .address{
     display: flex;
 }
@@ -568,6 +568,58 @@ margin-bottom: 16px;
 {
 fill: #404BBF;
 }
+.footer-email{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.logos-footer{
+    display: flex;
+    flex-direction: row;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    width: 264px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4%;
+}
+.emails{
+    display: flex;
+    flex-direction: row;
+    width: 264px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 2;
+    height: 40px;
+    margin: 8px auto 8px 16px;   
+    color: #FFFFFF;
+}
+.telegramm{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+
+    gap: 16px;
+    border-radius: 4%;
+}
+.telegramms{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 16px;
+    background-color: #4D5AE5;  
+    color: #FFFFFF;
+}
 /* Кнопки */
  .container-button {
     display: flex;
@@ -703,18 +755,41 @@ fill: #404BBF;
     width: 408px;
     height: 576px;
     background-color: #FCFCFC;
+    /* padding: 72px 24px 24p 24px; */
+}
+.conact-user{
+    width: 360px;
+    height: 24px;
+    margin-bottom: 16px;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2E2F42;
+    text-align: center;
+    
+}
+.modal-windows{
+    width: 360px;
+    height: 488px;
+    margin-top: 72px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24 px;
+    /* padding: 72px 24px 24p 24px; */
+}
+.titul span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.1;
+    margin-bottom: 4px;
+    color: #8E8F99;
 }
 .modal-close{
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0; */
-    /* width: 30px;
-    height: 30px; */
     border-radius: 50%; 
     padding: 0;
-    /* border: 1px solid #E7E9FC; */
-    
+       
 }
 .modal-close-btn{
     position: absolute;
@@ -726,12 +801,104 @@ fill: #404BBF;
     padding: 0;
     cursor: pointer;
     border: 1px solid #E7E9FC;
-    /* transition: border; */
-    /* transform: translateY(100%); */
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close-btn:hover,
 .modal-close-btn:focus{
     background-color: #404BBF;
     fill: #FFFFFF;
+}
+.contact-form{
+    /* width: 500px;
+    height: 300px; */
+    padding: 40px;
+    margin: 0 auto;
+    /* box-shadow : 0 10px 10px 0 #e21515 */
+}
+/* .contact-forms{
+    width: 360p;
+    height: 336px;
+    margin: 72px 24px 24p 24px;
+} */
+.contact-form-input{
+    width: 100%;
+    height: 40px;
+    
+    padding-left: 20px;
+    border: 1px solid #303030;
+}
+.contact-form-fieldset{
+    /* margin-bottom: 20px; */
+}
+/* Для блокового элемента можем давать любые значения как для блока */
+.contact-form-fieldsets{
+    margin-bottom: 20px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-form-message{
+    width: 100%;
+    height: 120px;
+    padding-left: 14px;
+    resize: none;
+    /* margin-bottom: 20px; */
+}
+.contact-form-btn-wrapper{
+    display: flex;
+    justify-content: center;
+    /* column-gap: 10px; */
+}
+.contact-form-btn{
+    width: 169px;
+    height: 56px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+
+    /* font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    color: aquamarine;
+    border: 1px solid #303030;
+    background-color: transparent;
+    color: #303030; */
+}
+.form-icon{
+    fill: #4D5AE5;
+}
+.form-group{
+    position: relative;
+}
+.form-icon{
+    position: absolute;
+    left: 5px;
+    margin-right: 7px;
+}
+.form{
+    margin-bottom: 16px;
+}
+.form:hover,
+.form:focus{
+    border-radius: #4D5AE5;
+    color: #4D5AE5;
+}
+.contact-form-checkbox{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.1;
+    background-color:#404BBF;
+}
+.check:focus {
+    background-color: #4D5AE5;
+}
+/* .contact-form-input:hover, */
+.contact-form-input:focus{
+    border: #4D5AE5;
+    color: #4D5AE5;
 }
