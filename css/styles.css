@@ -113,9 +113,9 @@ h1 {
     transform: translateY(25px);
     background-color: #404BBF;
 }
-*,*::before,*::after{
+/* *,*::before,*::after{
     box-sizing: inherit;
-}
+} */
 .address{
     display: flex;
 }
