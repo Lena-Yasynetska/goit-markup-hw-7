@@ -904,7 +904,7 @@ gap: 16px;
 .check:focus {
     background-color: #4D5AE5;
 }
-/* .contact-form-input:hover, */
+
 .contact-form-input:focus{
     border: #4D5AE5;
     color: #4D5AE5;
