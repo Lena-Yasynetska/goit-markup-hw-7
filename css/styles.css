@@ -869,15 +869,16 @@ gap: 16px;
 }
 .form-icon{
     fill: #4D5AE5;
+    width: 12px;
+    height: 12px;
 }
 .form-group{
     position: relative;
-}
-.form-icon{
     position: absolute;
     left: 5px;
     margin-right: 7px;
 }
+
 .form{
     margin-bottom: 16px;
 }
