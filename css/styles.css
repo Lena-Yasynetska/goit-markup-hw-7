@@ -920,6 +920,11 @@ margin: 8px 16px 8px 24px;
 .form-icon:focus{
     fill: #404BBF;
 }  */
+.form-icon:hover,
+.form-icon:focus{
+    fill: #404BBF;
+    border: 1px solid #ffffff;
+}
 .form-group:hover,
 .form-group:focus{
     border: 1px solid #404BBF;
