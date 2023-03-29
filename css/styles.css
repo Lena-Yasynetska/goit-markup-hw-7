@@ -893,7 +893,7 @@ margin: 8px 16px 8px 24px;
 .form-group:hover .form-icon,
 .form-group:focus .form-icon{
     border-radius: #4D5AE5;
-   
+    fill: #404BBF;
 }
 .form-group:hover,
 .form-group:focus{
