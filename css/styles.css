@@ -576,32 +576,11 @@ fill: #404BBF;
 }
 .contact-form-input{
     background-color: #4D5AE5;
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 2;
-    /* height: 40px; */
-    /* margin: 8px auto 8px 0;    */
-    margin-right: 24px;
-    color: #FFFFFF;
 }
- .logos-footer{
+/* .logos-footer{
     display: flex;
-    flex-direction: row; 
-    /* background-color: #4D5AE5; */
-} 
-.telegramms{
-    display: flex;
-   flex-direction: row;
-   width: 165px;
-   height: 40px;
-   background-color: #4D5AE5;
-}
-.icons{
-    /* position: absolute; */
-
-}
+    flex-direction: row;
+} */
 /* .email{
     display: flex;
     flex-direction: row;
