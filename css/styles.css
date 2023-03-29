@@ -568,28 +568,24 @@ margin-bottom: 16px;
 {
 fill: #404BBF;
 }
-
 .footer-email{
     display: flex;
     flex-direction: column;
     margin-left: 80px;
 }
-.contact-form-input{
-    background-color: #4D5AE5;
-}
-/* .logos-footer{
+.logos-footer{
     display: flex;
     flex-direction: row;
-} */
-/* .email{
+}
+.email{
     display: flex;
     flex-direction: row;
     width: 264px;
     height: 40px;
     border: 1px solid #FFFFFF;
     border-radius: 4%;
-} */
-/* .emails{
+}
+.emails{
     display: flex;
     flex-direction: row;
     width: 264px;
@@ -601,13 +597,13 @@ line-height: 2;
     height: 40px;
     margin: 8px auto 8px 16px;   
     color: #FFFFFF;
-} */
-/* .telegramm{
+}
+.telegramm{
     display: flex;
     flex-direction: row;
-    /* justify-content: center; 
+    /* justify-content: center; */
     align-items: center;
-    /* padding: 8px 24px; 
+    /* padding: 8px 24px; */
     width: 165px;
     height: 40px;
     margin-left: 24px;
@@ -616,16 +612,16 @@ line-height: 2;
     gap: 16px;
     border-radius: 4%;
 }
- .telegramms{
+.telegramms{
     display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
 margin: 8px 16px 8px 24px;
- gap: 16px; 
+/* gap: 16px; */
     background-color: #4D5AE5;  
     color: #FFFFFF;
-} */
+}
 /* Кнопки */
  .container-button {
     display: flex;
