@@ -904,8 +904,10 @@ margin: 8px 16px 8px 24px;
     border: #4D5AE5;
     color: #4D5AE5;
 }
-.icons{
+.icona{
     background-color: #4D5AE5;
     width: 24px;
     height: 20px;
+    fill: #ffffff;
+    margin-right: 24px;
 }
