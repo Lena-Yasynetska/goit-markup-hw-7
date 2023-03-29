@@ -889,10 +889,10 @@ margin: 8px 16px 8px 24px;
 .form{
     margin-bottom: 16px;
 }
-.form:hover,
-.form:focus{
+.form-group:hover,
+.form-group:focus{
     border-radius: #4D5AE5;
-    color: #4D5AE5;
+   
 }
 .form-icon:hover,
 .form-icon:focus{
