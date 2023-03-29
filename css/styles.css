@@ -897,7 +897,7 @@ margin: 8px 16px 8px 24px;
 } */
 .contact-form-input:hover .form-icon,
 .contact-form-input:focus .form-icon{
-    /* border: 1px solid #404BBF; */
+    border: 1px solid #404BBF;
     fill: #404BBF;
 }
 /* .form-icon:hover,
