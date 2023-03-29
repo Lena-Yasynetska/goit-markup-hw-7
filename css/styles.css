@@ -890,7 +890,6 @@ margin: 8px 16px 8px 24px;
 .form{
     margin-bottom: 16px;
 }
-
 .form-group:hover .form-icon,
 .form-group:focus .form-icon{
     fill: #404BBF;
