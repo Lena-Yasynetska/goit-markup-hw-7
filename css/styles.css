@@ -983,8 +983,14 @@ margin: 8px 16px 8px 24px;
 }
 .i{
     display: flex;
-    flex-direction: column;
-    width: 165px;
+    flex-direction: row;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 0.7;
+width: 165px;
+
     height: 40px;
     background-color: #4D5AE5;
     margin-left: 24px;
