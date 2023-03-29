@@ -971,9 +971,12 @@ margin: 8px 16px 8px 24px;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 0.7;
+line-height: 0.68;
 width: 165px;
     height: 40px;
     background-color: #4D5AE5;
     margin-left: 24px;
+}
+.icons{
+    margin: 10px 24px 10px 16px;
 }
