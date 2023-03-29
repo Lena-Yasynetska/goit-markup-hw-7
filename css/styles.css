@@ -575,7 +575,7 @@ fill: #404BBF;
     margin-left: 80px;
 }
 .contact-form-input{
-    background-color: #4D5AE5;
+    /* background-color: #4D5AE5; */
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -859,11 +859,11 @@ margin: 8px 16px 8px 24px;
     margin: 0 auto;
     /* box-shadow : 0 10px 10px 0 #e21515 */
 }
-/* .contact-forms{
+.contact-forms{
     width: 360p;
     height: 336px;
     margin: 72px 24px 24p 24px;
-} */
+} 
 .contact-form-input{
     width: 100%;
     height: 40px;
