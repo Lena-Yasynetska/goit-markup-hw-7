@@ -733,9 +733,6 @@ margin: 8px 16px 8px 24px;
 } */
 /* modal */
 .backdrop{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     position: fixed;
     top: 0;
     left: 0;
@@ -757,7 +754,6 @@ margin: 8px 16px 8px 24px;
     width: 408px;
     height: 576px;
     background-color: #FCFCFC;
-   
 }
 .conact-user{
     width: 360px;
