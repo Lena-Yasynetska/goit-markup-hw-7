@@ -925,9 +925,7 @@ margin: 8px 16px 8px 24px;
 .form-group:focus{
     border: 1px solid #404BBF;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 } 
-
 .contact-form-checkbox{
     font-family: 'Roboto';
     font-style: normal;
