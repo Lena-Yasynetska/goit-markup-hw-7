@@ -861,19 +861,7 @@ margin: 8px 16px 8px 24px;
     border-radius: 4px;
     color: #FFFFFF;
 
-    /* font-size: 20px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5%;
-    cursor: pointer;
-    color: aquamarine;
-    border: 1px solid #303030;
-    background-color: transparent;
-    color: #303030; */
-}
-/* .form-icon{
-    fill: #4D5AE5;
-} */
+}   
 .form-group{
     position: relative;
 }
