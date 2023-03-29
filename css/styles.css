@@ -605,15 +605,15 @@ line-height: 2;
     padding-right: 24px;
 
 }
-/* .email{
+.email{
     display: flex;
     flex-direction: row;
     width: 264px;
     height: 40px;
     border: 1px solid #FFFFFF;
-    border-radius: 4%;
-} */
-/* .emails{
+    border-radius: 4%; 
+} 
+.emails{
     display: flex;
     flex-direction: row;
     width: 264px;
@@ -625,7 +625,7 @@ line-height: 2;
     height: 40px;
     margin: 8px auto 8px 16px;   
     color: #FFFFFF;
-} */
+} 
 /* .telegramm{
     display: flex;
     flex-direction: row;
