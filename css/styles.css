@@ -811,7 +811,8 @@ margin: 8px 16px 8px 24px;
     fill: #FFFFFF;
 }
 .form-icon{
-
+    fill: black;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-group:hover .form-icon,
 .form-group:focus .form-icon{
