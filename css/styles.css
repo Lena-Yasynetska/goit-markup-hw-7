@@ -932,24 +932,7 @@ margin: 8px 16px 8px 24px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 } 
-/* .form-icon:hover .form-group,
-.form-icon:focus .form-group{
-    border: 1px solid #404BBF;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    fill: #404BBF;
-}
-.form-group:hover,
-.form-group:focus{
-    fill: #404BBF;
-    border: 1px solid #404BBF;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-} */
-/* .contact-form-input:hover,
-.contact-form-input:focus{
-    border: 1px solid #404BBF;
-} */
 .contact-form-checkbox{
     font-family: 'Roboto';
     font-style: normal;
@@ -990,7 +973,6 @@ font-weight: 500;
 font-size: 16px;
 line-height: 0.7;
 width: 165px;
-
     height: 40px;
     background-color: #4D5AE5;
     margin-left: 24px;
