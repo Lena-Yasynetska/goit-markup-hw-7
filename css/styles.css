@@ -603,10 +603,12 @@ line-height: 2;
     flex-direction: row;
     /* justify-content: center; */
     align-items: center;
-    padding: 8px 24px;
+    /* padding: 8px 24px; */
     width: 165px;
     height: 40px;
-
+    margin-left: 24px;
+    padding-right: 24px;
+    background-color: #4D5AE5;
     gap: 16px;
     border-radius: 4%;
 }
@@ -615,8 +617,8 @@ line-height: 2;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding: 8px 24px;
-gap: 16px;
+margin: 8px 16px 8px 24px;
+/* gap: 16px; */
     background-color: #4D5AE5;  
     color: #FFFFFF;
 }
@@ -869,16 +871,15 @@ gap: 16px;
 }
 .form-icon{
     fill: #4D5AE5;
-    width: 12px;
-    height: 12px;
 }
 .form-group{
     position: relative;
+}
+.form-icon{
     position: absolute;
     left: 5px;
     margin-right: 7px;
 }
-
 .form{
     margin-bottom: 16px;
 }
@@ -902,4 +903,9 @@ gap: 16px;
 .contact-form-input:focus{
     border: #4D5AE5;
     color: #4D5AE5;
+}
+.icons{
+    background-color: #4D5AE5;
+    width: 24px;
+    height: 20px;
 }
