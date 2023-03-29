@@ -757,7 +757,7 @@ margin: 8px 16px 8px 24px;
     width: 408px;
     height: 576px;
     background-color: #FCFCFC;
-    /* padding: 72px 24px 24p 24px; */
+   
 }
 .conact-user{
     width: 360px;
@@ -777,7 +777,6 @@ margin: 8px 16px 8px 24px;
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 24 px;
-    /* padding: 72px 24px 24p 24px; */
 }
 .titul span{
     font-family: 'Roboto';
@@ -810,14 +809,11 @@ margin: 8px 16px 8px 24px;
     background-color: #404BBF;
     fill: #FFFFFF;
 }
-
 .contact-form{
     
     padding: 40px;
     margin: 0 auto;
-   
 }
-
 .contact-form-input{
     width: 100%;
     height: 40px;
