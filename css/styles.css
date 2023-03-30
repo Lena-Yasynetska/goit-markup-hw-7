@@ -876,7 +876,6 @@ gap: 16px;
 
 .form-icon{
     position: absolute;
-    
     transform: translateY(-50%);
     transform: translateX(-50%);
     left: 16px;
