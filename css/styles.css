@@ -785,14 +785,9 @@ gap: 16px;
     position: relative; 
 }
 
-/* .modal-windows{
-    width: 360px;
-    height: 488px;
-    margin-top: 72px;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 24px; */
-    /* padding: 72px 24px 24p 24px; */
+.form-group{
+    position: relative;
+}
 
 .titul span{
     font-family: 'Roboto';
