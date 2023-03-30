@@ -876,13 +876,11 @@ gap: 16px;
 
 .form-icon{
     position: absolute;
-    transform: translate(-50%);
-    /* width: 12px;
-    height: 12px;
+    /* transform: translate(-50%); */
+    transform: translateY(50%);
+   
     left: 16px;
-    top: 14px;
-    bottom: 14px;
-    bottom: 11px; */
+    top: 50%;
     margin-right: 7px;
     fill: #4D5AE5;
 }
