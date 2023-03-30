@@ -764,7 +764,11 @@ gap: 16px;
     width: 408px;
     height: 576px;
     background-color: #FCFCFC;
-    /* padding: 72px 24px 24p 24px; */
+    padding: 72px 24px 24px;
+    /* padding-top: 72px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px; */
 }
 .conact-user{
     width: 360px;
@@ -777,15 +781,15 @@ gap: 16px;
     text-align: center;
     
 }
-.modal-windows{
+/* .modal-windows{
     width: 360px;
     height: 488px;
     margin-top: 72px;
     margin-left: 24px;
     margin-right: 24px;
-    margin-bottom: 24px;
+    margin-bottom: 24px; */
     /* padding: 72px 24px 24p 24px; */
-}
+
 .titul span{
     font-family: 'Roboto';
     font-style: normal;
@@ -830,6 +834,7 @@ gap: 16px;
     margin: 72px 24px 24p 24px;
 } */
 .contact-form-input{
+    position: relative;
     width: 100%;
     height: 40px;
     
@@ -866,12 +871,19 @@ gap: 16px;
     border-radius: 4px;
     color: #FFFFFF;
  }
+/* .form-droup{
+    position: relative;
+ } */
 .form-icon{
-    left: 5px;
+    position: absolute;
+    left: 16px;
+    top: 11px;
     margin-right: 7px;
     fill: #4D5AE5;
 }
-
+.form{
+    margin-bottom: 8px;
+}
 .form:hover,
 .form:focus{
     border-radius: #4D5AE5;
