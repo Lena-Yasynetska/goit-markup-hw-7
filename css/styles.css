@@ -880,7 +880,7 @@ gap: 16px;
     transform: translateX(-50%);
     left: 16px;
     top: 13px;
-    margin-right: 17px;
+    margin-right: 38px;
     fill: #4D5AE5;
 }
 .form{
@@ -918,7 +918,7 @@ gap: 16px;
 }
 .real-checkbox:focus + .custom-checkbox {
     background-color: #404BBF;
-    color: #FFFFFF;
+    fill: #FFFFFF;
     opacity: 1;
 }
 .custom-checkbox{
@@ -946,7 +946,7 @@ gap: 16px;
     top: 50%;
     transform: translate(-50%, -50%) scale(0);
 }
-/* Активирем чекбокс */
+/* Активируем чекбокс */
 .real-checkbox:checked + .custom-checkbox::before {
     transform: translate(-50%, -50%) scale(1);
 }
