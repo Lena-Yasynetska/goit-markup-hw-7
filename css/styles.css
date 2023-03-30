@@ -922,8 +922,9 @@ gap: 16px;
     position: absolute;
     z-index: -1;
 }
-.real-checkbox:focus + .custom-checkbox {
+.real-checkbox:hover + .custom-checkbox {
     background-color: #404BBF;
+    color: #FFFFFF;
 }
 .custom-checkbox{
     position: relative;
