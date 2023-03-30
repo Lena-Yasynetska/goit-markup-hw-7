@@ -876,11 +876,11 @@ gap: 16px;
 
 .form-icon{
     position: absolute;
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
     transform: translateX(-50%);
     left: 16px;
-    top: 50%;
-    margin-right: 7px;
+    top: 13px;
+    margin-right: 17px;
     fill: #4D5AE5;
 }
 .form{
