@@ -227,7 +227,6 @@ h1 {
 .strategy-h::before{
     display: block;
     content: "";
-   /* background-image: url(../images/Vector.svg); */
     background-repeat: no-repeat;
     background-position: center;
     background-color: #F4F4FD;
@@ -908,7 +907,7 @@ padding: 8px 68px 8px 24px;
     margin-right: 8px;
 }
 .custom-checkbox::before {
-    content: '';
+    content: " ";
 
     display: inline-block;
     width: 10px;
