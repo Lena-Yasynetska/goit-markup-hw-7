@@ -847,6 +847,9 @@ padding: 8px 64px 8px 24px;
     fill: #404BBF;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.form{
+    fill: #404BBF;
+}
 /* Кастомный чекбокс */
 .real-checkbox{
     width: 0;
@@ -859,10 +862,10 @@ padding: 8px 64px 8px 24px;
     background-color: #404BBF;
     fill: #FFFFFF;
 }
-.check:focus{
+/* .check:focus{
     background-color: #404BBF;
     fill: #FFFFFF;
-}
+} */
 .custom-checkbox{
     position: relative;
     display: inline-block;
