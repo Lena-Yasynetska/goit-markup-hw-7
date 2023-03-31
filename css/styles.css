@@ -458,9 +458,6 @@ h2 {
 .gustomers-list-item:last-child{
     margin-right: 0;
 }
-/* .logos{
-    background-color: #8E8F99;
-} */
 .gustomers-list-item:hover .logos,
 .gustomers-list-item:focus .logos{
     /* border: 1px solid #404BBF; */
@@ -476,10 +473,6 @@ h2 {
     /* transform: translateY(100%); */
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .logos:hover,
-.logos:focus{
-    fill:#404BBF;
-} */
 /* Подвал стр. */
 .footer{
     display: flex;
@@ -495,7 +488,6 @@ h2 {
 .footer-social-list{
     display: flex;
     flex-direction: row;
-    /* cursor: pointer; */
 }
 .logo-footer{
     margin-bottom: 16px;
@@ -509,7 +501,6 @@ h2 {
 .logo-f{
     display: flex;
     flex-direction: column;
-    /* margin-left: auto; */
     margin-right: 120px;
     width: 264px; 
 }
@@ -540,13 +531,11 @@ margin-bottom: 16px;
     height: 40px;
     margin-right: 16px;
     border-radius: 50%;
-    /* background-color: #8E8F99; */
     justify-content: center;
     align-items: center;
     background: rgba(255, 255, 255, 0.1);
 
     cursor: pointer;
-    /* transform: translateY(100%); */
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-list-item:hover,
@@ -559,7 +548,6 @@ margin-bottom: 16px;
 .social-list-item-link{
     margin: 0;
     padding: 0;
-    /* transform: translateY(100%); */
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-item-link:hover,
@@ -621,8 +609,6 @@ padding: 8px 64px 8px 24px;
     position: absolute;
     right: 24px;
     top: 10px;
-    /* width: 24px;
-    height: 20px; */
     color: #ffffff;
 }
 /* Кнопки */
@@ -657,7 +643,6 @@ padding: 8px 64px 8px 24px;
     border-radius: 4px;
     background-color: #F4F4FD;
     color: #4D5AE5;
-    /* transform: translateY(100%); */
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-nav{
@@ -709,15 +694,9 @@ padding: 8px 64px 8px 24px;
     padding: 40px 32px 164px;
     background-color: #4D5AE5;
     position: absolute;
-    /* overflow: hidden;
-    overflow: scroll; */
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .kartka:hover test,
-.kartka:focus test{
-    transform: translate(0.0);
-} */
 /* modal */
 .backdrop{
     position: fixed;
@@ -752,16 +731,13 @@ padding: 8px 64px 8px 24px;
     line-height: 1.5;
     color: #2E2F42;
     text-align: center;
-    
 }
 .titul{
     position: relative; 
 }
-
 .form-group{
     position: relative;
 }
-
 .titul span{
     font-family: 'Roboto';
     font-style: normal;
@@ -826,7 +802,6 @@ padding: 8px 64px 8px 24px;
 .contact-form-btn-wrapper{
     display: flex;
     justify-content: center;
-    /* column-gap: 10px; */
 }
 .contact-form-btn{
     width: 169px;
@@ -839,24 +814,14 @@ padding: 8px 64px 8px 24px;
 
 .form-icon{
     position: absolute;
-    /* transform: translateY(-50%); */
-    /* transform: translateX(-50%); */
     left: 16px;
     bottom: 4px;
     margin-right: 38px;
     fill: #2E2F42;
 }
-/* .form-icon:focus{
-    fill: #4D5AE5;
-} */
 .form{
     margin-bottom: 8px;
 }
-/* .form-icon:hover,
-.form-icon:focus{
-    /* border-radius: #4D5AE5; 
-    color: #4D5AE5;
-} */
 .contact-form-checkbox{
     font-family: 'Roboto';
     font-style: normal;
@@ -865,51 +830,11 @@ padding: 8px 64px 8px 24px;
     line-height: 1.1;
     background-color:#404BBF;
 }
-/* .contact-form-input:focus{
-    border: 1px solid #4D5AE5;
-    border-radius: 4px;
-    color: #4D5AE5;
-    fill: #4D5AE5;
-} */
 
-
-/* .gustomers-list-item:hover .logos,
-.gustomers-list-item:focus .logos{
-    /* border: 1px solid #404BBF; 
-    fill: #404BBF;
-}
-.gustomers-list-item:hover,
-.gustomers-list-item:focus{
-    border: 1px solid #404BBF;
-    /* fill: #404BBF; 
-}
-.logos{
-    fill: #8E8F99;
-    /* transform: translateY(100%); 
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
-
-/* .form-group:hover,
-.form-group:focus{
-    fill: #404BBF;
-} */
-/* .contact-form-input:hover,
-.contact-form-input:focus{
-    fill: #404BBF;
-    border: 1px solid #404BBF;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-/* .titul:hover,
-.titul:focus{
-    border: 1px solid #404BBF;
-    border-radius: 4px;
-    fill: #404BBF;
-} */
 .contact-form-input:hover .form-icon,
 .contact-form-input:focus .form-icon{
-    border: 1px solid #404BBF;
-    border-radius: 4px;
+    /* border: 1px solid #404BBF;
+    border-radius: 4px; */
     fill: #404BBF;
 }
 .contact-form-input:hover,
@@ -919,7 +844,7 @@ padding: 8px 64px 8px 24px;
 }
 .form-icon:hover,
 .form-icon:focus{
-    fill: #404BBF;
+    /* fill: #404BBF; */
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Кастомный чекбокс */
@@ -933,7 +858,10 @@ padding: 8px 64px 8px 24px;
 .real-checkbox:focus + .custom-checkbox {
     background-color: #404BBF;
     fill: #FFFFFF;
-    /* opacity: 1; */
+}
+.real-checkbox:focus .custom-checkbox,
+.real-checkbox:focus .custom-checkbox{
+    fill: #FFFFFF;
 }
 .custom-checkbox{
     position: relative;
@@ -963,19 +891,3 @@ padding: 8px 64px 8px 24px;
 .real-checkbox:checked + .custom-checkbox::before {
     transform: translate(-50%, -50%) scale(1);
 }
-/* Фокс и хофер чекбокса */
-/* .contact-form-fieldset:hover .custom-checkbox,
-.contact-form-fieldset:focus .custom-checkbox{
-    /* border: 1px solid #404BBF; */
-    /* fill: #404BBF;
-}
-.gustomers-list-item:hover,
-.gustomers-list-item:focus{
-    border: 1px solid #404BBF;
-    /* fill: #404BBF; */
-/* }
-.custom-checkbox{
-    fill: #8E8F99;
-    /* transform: translateY(100%); */
-    /* transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */ */ */ */
