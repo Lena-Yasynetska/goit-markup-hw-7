@@ -854,9 +854,9 @@ padding: 8px 64px 8px 24px;
 .form{
     margin-bottom: 8px;
 }
-.form:hover,
-.form:focus{
-    border-radius: #4D5AE5;
+.form-icon:hover,
+.form-icon:focus{
+    /* border-radius: #4D5AE5; */
     color: #4D5AE5;
 }
 .contact-form-checkbox{
@@ -911,7 +911,7 @@ padding: 8px 64px 8px 24px;
 .contact-form-input:focus{
     fill: #404BBF;
 }
-            /* Кастомный чекбокс */
+/* Кастомный чекбокс */
 .real-checkbox{
     width: 0;
     height: 0;
