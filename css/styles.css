@@ -849,6 +849,9 @@ padding: 8px 64px 8px 24px;
     left: 16px;
     top: 13px;
     margin-right: 38px;
+    fill: #2E2F42;
+}
+.form-icon:focus{
     fill: #4D5AE5;
 }
 .form{
