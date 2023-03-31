@@ -855,10 +855,11 @@ padding: 8px 64px 8px 24px;
     position: absolute;
     z-index: -1;
 }
-.real-checkbox:focus .custom-checkbox {
+.real-checkbox:focus + .custom-checkbox {
     background-color: #404BBF;
     fill: #FFFFFF;
 }
+
 .custom-checkbox{
     position: relative;
     display: inline-block;
@@ -875,7 +876,7 @@ padding: 8px 64px 8px 24px;
     display: inline-block;
     width: 10px;
     height: 8px;
-    background-image: url("../images/symbol-min.svg#fau");
+    background-image: url("./styles.css#fau");
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
