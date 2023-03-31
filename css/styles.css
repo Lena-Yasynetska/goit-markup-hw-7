@@ -900,12 +900,12 @@ padding: 8px 64px 8px 24px;
     border: 1px solid #404BBF;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } */
-.titul:hover,
+/* .titul:hover,
 .titul:focus{
     border: 1px solid #404BBF;
     border-radius: 4px;
     fill: #404BBF;
-}
+} */
 .contact-form-input:hover .form-icon,
 .contact-form-input:focus .form-icon{
     border: 1px solid #404BBF;
