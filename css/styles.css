@@ -832,8 +832,8 @@ padding: 8px 64px 8px 24px;
 }
 .contact-form-input:hover .form-icon,
 .contact-form-input:focus .form-icon{
-    /* border: 1px solid #404BBF;
-    border-radius: 4px; */
+    border: 1px solid #404BBF;
+    border-radius: 4px;
     fill: #404BBF;
 }
 .contact-form-input:hover,
