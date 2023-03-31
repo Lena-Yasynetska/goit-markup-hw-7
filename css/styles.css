@@ -862,13 +862,13 @@ padding: 8px 64px 8px 24px;
     z-index: -1;
 }
 .real-checkbox:focus + .custom-checkbox {
-    background-color: #0a0a0a;
-    fill: #FFFFFF;
-}
-/* .check:focus{
     background-color: #404BBF;
     fill: #FFFFFF;
-} */
+}
+.check:focus{
+    background-color: #404BBF;
+    fill: #FFFFFF;
+}
 .custom-checkbox{
     position: relative;
     display: inline-block;
