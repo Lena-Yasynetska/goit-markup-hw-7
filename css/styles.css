@@ -906,10 +906,14 @@ padding: 8px 64px 8px 24px;
 .form-group:focus{
     border: 1px solid #404BBF;
 }
-.form-icon:hover .contact-form-input,
-.form-icon:hover .contact-form-input{
+.contact-form-input:hover,
+.contact-form-input:focus{
     fill: #404BBF;
 }
+/* .form-icon:hover,
+.form-icon:hover{
+    fill: #404BBF;
+} */
 
 /* Кастомный чекбокс */
 .real-checkbox{
