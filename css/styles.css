@@ -873,14 +873,34 @@ padding: 8px 64px 8px 24px;
     color: #4D5AE5;
     fill: #4D5AE5;
 } */
+
+
+/* .gustomers-list-item:hover .logos,
+.gustomers-list-item:focus .logos{
+    /* border: 1px solid #404BBF; 
+    fill: #404BBF;
+}
+.gustomers-list-item:hover,
+.gustomers-list-item:focus{
+    border: 1px solid #404BBF;
+    /* fill: #404BBF; 
+}
+.logos{
+    fill: #8E8F99;
+    /* transform: translateY(100%); 
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+
 /* .form-group:hover,
 .form-group:focus{
     fill: #404BBF;
 } */
-.contact-form-input:hover .form-group,
-.contact-form-input:focus .form-group{
+.contact-form-input:hover .form-icon,
+.contact-form-input:focus .form-icon{
     fill: #404BBF;
     border: 1px solid #404BBF;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* .form-group:hover,
 .form-group:focus{
