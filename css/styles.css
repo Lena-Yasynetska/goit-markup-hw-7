@@ -840,9 +840,9 @@ padding: 8px 64px 8px 24px;
 .form-icon{
     position: absolute;
     /* transform: translateY(-50%); */
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
     left: 16px;
-    bottom: 13px;
+    bottom: 4px;
     margin-right: 38px;
     fill: #2E2F42;
 }
@@ -908,6 +908,8 @@ padding: 8px 64px 8px 24px;
 }
 .contact-form-input:hover,
 .contact-form-input:focus{
+    border: 1px solid #404BBF;
+    border-radius: 4px;
     fill: #404BBF;
 }
 .form-icon:hover,
