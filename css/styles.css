@@ -855,7 +855,7 @@ padding: 8px 64px 8px 24px;
     position: absolute;
     z-index: -1;
 }
-.real-checkbox:focus .custom-checkbox {
+.real-checkbox:focus + .custom-checkbox {
     background-color: #404BBF;
     fill: #FFFFFF;
 }
