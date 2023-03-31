@@ -885,7 +885,7 @@ padding: 8px 64px 8px 24px;
     display: inline-block;
     width: 10px;
     height: 8px;
-    background-image: url("../images/symbol.svg#fau");
+    background-image: url("../images/symbol-min.svg#fau");
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
