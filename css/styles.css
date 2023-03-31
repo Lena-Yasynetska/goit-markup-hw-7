@@ -873,12 +873,12 @@ padding: 8px 64px 8px 24px;
     color: #4D5AE5;
     fill: #4D5AE5;
 } */
-.form-group:hover,
+/* .form-group:hover,
 .form-group:focus{
     fill: #404BBF;
-}
-.contact-form-input:hover,
-.contact-form-input:focus{
+} */
+.contact-form-input:hover .form-group,
+.contact-form-input:focus .form-group{
     fill: #404BBF;
     border: 1px solid #404BBF;
 }
