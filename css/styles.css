@@ -699,12 +699,6 @@ padding: 8px 68px 8px 24px;
 .overlay{
     position: relative;
     overflow: hidden;
-    /* position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: #F4F4FD; */
 } 
 .container-produkt{
     display: flex;
