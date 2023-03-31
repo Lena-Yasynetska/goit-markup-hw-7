@@ -854,11 +854,11 @@ padding: 8px 64px 8px 24px;
 .form{
     margin-bottom: 8px;
 }
-.form-icon:hover,
+/* .form-icon:hover,
 .form-icon:focus{
-    /* border-radius: #4D5AE5; */
+    /* border-radius: #4D5AE5; 
     color: #4D5AE5;
-}
+} */
 .contact-form-checkbox{
     font-family: 'Roboto';
     font-style: normal;
@@ -905,10 +905,15 @@ padding: 8px 64px 8px 24px;
 .form-group:hover,
 .form-group:focus{
     border: 1px solid #404BBF;
+    border-radius: 4px;
     fill: #404BBF;
 }
 .contact-form-input:hover,
 .contact-form-input:focus{
+    fill: #404BBF;
+}
+.form-icon:hover,
+.form-icon:focus{
     fill: #404BBF;
 }
 /* Кастомный чекбокс */
