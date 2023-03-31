@@ -602,10 +602,6 @@ line-height: 2;
     flex-direction: row;
     position: relative;
     margin-left: 24px;
-    /* padding: 8px 24px; */
-    width: 165px;
-    height: 40px;
-
     gap: 16px;
     border-radius: 4%;
     background-color: #4D5AE5; 
