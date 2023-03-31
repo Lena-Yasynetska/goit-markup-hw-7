@@ -842,7 +842,7 @@ padding: 8px 64px 8px 24px;
     /* transform: translateY(-50%); */
     transform: translateX(-50%);
     left: 16px;
-    top: 13px;
+    bottom: 13px;
     margin-right: 38px;
     fill: #2E2F42;
 }
