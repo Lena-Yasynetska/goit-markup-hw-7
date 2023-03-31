@@ -699,7 +699,7 @@ padding: 8px 68px 8px 24px;
 .overlay{
     position: relative;
     overflow: hidden;
-} 
+   } 
 .container-produkt{
     display: flex;
     justify-content: center;
