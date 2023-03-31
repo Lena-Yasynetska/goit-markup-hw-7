@@ -870,11 +870,20 @@ padding: 8px 64px 8px 24px;
     line-height: 1.1;
     background-color:#404BBF;
 }
-.contact-form-input:focus{
+/* .contact-form-input:focus{
     border: 1px solid #4D5AE5;
     border-radius: 4px;
     color: #4D5AE5;
     fill: #4D5AE5;
+} */
+.form-group:hover .contact-form-input,
+.form-group:focus .contact-form-input{
+    /* border: 1px solid #404BBF; */
+    fill: #404BBF;
+}
+.form-group:hover,
+.form-group:focus{
+    border: 1px solid #404BBF;
 }
 /* Кастомный чекбокс */
 .real-checkbox{
