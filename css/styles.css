@@ -876,9 +876,13 @@ padding: 8px 64px 8px 24px;
     color: #4D5AE5;
     fill: #4D5AE5;
 } */
-.form-group:hover .contact-form-input,
-.form-group:focus .contact-form-input{
+.form-group:hover,
+.form-group:focus{
     /* border: 1px solid #404BBF; */
+    fill: #404BBF;
+}
+.contact-form-input:hover,
+.contact-form-input:focus{
     fill: #404BBF;
 }
 .form-group:hover,
@@ -911,7 +915,6 @@ padding: 8px 64px 8px 24px;
 }
 .custom-checkbox::before {
     content: " ";
-
     display: inline-block;
     width: 10px;
     height: 8px;
