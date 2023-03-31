@@ -906,8 +906,8 @@ padding: 8px 64px 8px 24px;
 .form-group:focus{
     border: 1px solid #404BBF;
 }
-.form-group:hover,
-.form-group:hover{
+.form-icon:hover,
+.form-icon:hover{
     fill: #404BBF;
 }
 
