@@ -912,10 +912,10 @@ padding: 8px 64px 8px 24px;
     border-radius: 4px;
     fill: #404BBF;
 }
-/* .form-icon:hover,
+.form-icon:hover,
 .form-icon:focus{
     fill: #404BBF;
-} */
+}
 /* Кастомный чекбокс */
 .real-checkbox{
     width: 0;
