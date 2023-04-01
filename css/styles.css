@@ -892,3 +892,25 @@ padding: 8px 64px 8px 24px;
 .real-checkbox:checked + .custom-checkbox::before {
     transform: translate(-50%, -50%) scale(1);
 }
+
+/* test */
+
+.option{
+    display: block;
+}
+.check{
+
+}
+.check-input{
+    position: absolute;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+}
+.check-box{
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    background-image: url(../images/symbol-min.svg#fau);
+}
