@@ -880,7 +880,7 @@ padding: 8px 64px 8px 24px;
     display: inline-block;
     width: 10px;
     height: 8px;
-    background-image: url("../images/symbol-min.svg#fau");
+    background-image: url("../images/galka.svg");
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -894,7 +894,7 @@ padding: 8px 64px 8px 24px;
 }
 
 /* test */
-
+/* 
 .option{
     display: block;
 }
@@ -912,5 +912,5 @@ padding: 8px 64px 8px 24px;
     position: absolute;
     width: 1em;
     height: 1em;
-    background-image: url(../images/symbol-min.svg#fau);
-}
+    background-image: url(../images/galka.svg);
+} */
