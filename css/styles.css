@@ -856,14 +856,20 @@ padding: 8px 64px 8px 24px;
     opacity: 0;
     z-index: -1;
 }
-.real-checkbox:focus + .custom-checkbox {
+/* .real-checkbox:focus + .custom-checkbox {
+    background-color: #e91b1b;
+    fill: #FFFFFF;
+} */
+
+.real-checkbox:checked + .custom-checkbox {
     background-color: #404BBF;
     fill: #FFFFFF;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.check:focus{
+/* .check:focus{
     background-color: #404BBF;
     fill: #FFFFFF;
-}
+} */
 .custom-checkbox{
     position: relative;
     display: inline-block;
