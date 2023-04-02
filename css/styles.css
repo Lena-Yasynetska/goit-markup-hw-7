@@ -601,6 +601,7 @@ line-height: 2;
     gap: 16px;
     /* border-radius: 4%; */
     background-color: #4D5AE5; 
+    cursor: pointer;
 }
 .telegramms{
     display: flex;
