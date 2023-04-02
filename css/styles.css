@@ -819,6 +819,7 @@ padding: 8px 64px 8px 24px;
 .contact-form-btn{
     width: 169px;
     height: 56px;
+    margin-top: 24px;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
