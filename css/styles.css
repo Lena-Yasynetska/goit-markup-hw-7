@@ -578,7 +578,9 @@ fill: #404BBF;
     display: flex;
      flex-direction: row;
     width: 264px;
-   
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
