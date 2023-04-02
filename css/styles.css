@@ -523,6 +523,7 @@ margin-bottom: 16px;
 .footer-social-list-icon{
     justify-content: center;
     align-items: center;  
+    padding-top: 1px;
 }
 .footer-social-list-item{
     display: flex;
