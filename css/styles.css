@@ -569,6 +569,7 @@ fill: #404BBF;
     flex-direction: row;
     width: 264px;
     height: 40px;
+    /* background-color: #2E2F42; */
     border: 1px solid #FFFFFF;
     border-radius: 4%;
 }
@@ -582,8 +583,14 @@ font-weight: 400;
 font-size: 12px;
 line-height: 2;
     height: 40px;
-    margin: 8px auto 8px 16px;   
+    background-color: #2E2F42;
+    /* margin: 8px auto 8px 16px;    */
     color: #FFFFFF;
+}
+.placeholder{
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 .telegramm{
     display: flex;
@@ -751,7 +758,8 @@ padding: 8px 64px 8px 24px;
     margin-bottom: 4px;
 }
 .modal-close{
-    position: absolute;
+    /* !!!!!!! */
+    /* position: absolute; */
     border-radius: 50%; 
     padding: 0;
     font-size:none; 
