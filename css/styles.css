@@ -576,8 +576,9 @@ fill: #404BBF;
 }
 .emails{
     display: flex;
-    flex-direction: row;
+     flex-direction: row;
     width: 264px;
+   
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -585,7 +586,7 @@ fill: #404BBF;
     line-height: 2;
     height: 40px;
     background-color: #2E2F42;
-    margin: 8px auto 8px 16px;   
+    /* margin-left: 16px; */
     color: #FFFFFF;
 }
 /* .placeholder{
