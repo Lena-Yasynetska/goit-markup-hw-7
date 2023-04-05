@@ -80,7 +80,6 @@ h1 {
     position: relative;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-
 .menu-job:hover{
     color: #404BBF;
 }
@@ -133,8 +132,6 @@ h1 {
 .hero{
     background-color:  #2E2F42;
     padding: 188px 0 188px;
-/* }
-.hero-s{ */
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
@@ -257,7 +254,6 @@ h1 {
     width: 360px;
     box-sizing: border-box;
     background: #FFFFFF; 
-    /* transform: translateY(100%); */
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .job-our:hover,
@@ -267,7 +263,6 @@ h1 {
 .job-our:hover .test,
 .job-our:focus .test{
     transform: translate(0.0);
-
 } 
 img{
     max-width: 100%;
@@ -309,7 +304,6 @@ h2 {
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-    /* cursor: pointer; */
 }
 .produkt:last-child{
     margin-right: 0;
@@ -643,7 +637,6 @@ h2 {
     position: relative;
 }
  .job-o::before{
-    /* position: relative; */
     display: block;
  }
   
